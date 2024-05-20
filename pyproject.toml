@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "subjective-evaluation-data-prepare"
+version = "0.1.0"
+description = ""
+authors = ["Taisuke Minami <tmnm13009@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.20.26"
+numpy = "^1.26.4"
+tqdm = "^4.66.4"
+plotly = "^5.22.0"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
